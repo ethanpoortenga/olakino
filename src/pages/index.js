@@ -76,7 +76,7 @@ const IndexPage = () => (
         src="../images/olakino.png"
         loading="eager"
         width={200}
-        quality={200}
+        quality={100}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
