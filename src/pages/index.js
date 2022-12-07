@@ -75,14 +75,14 @@ const IndexPage = () => (
       <StaticImage
         src="../images/olakino.png"
         loading="eager"
-        width={300}
+        width={250}
         quality={100}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <p className={styles.intro}>
-        <b>This is olakino</b> A virtual character that levels up when you achieve your real-life fitness goals. 
+      <p className={styles.textCenter}>
+        <b>This is olakino.</b> A virtual character that levels up when you achieve your real-life fitness goals. 
         <br />
         <br />
         1. Link olakino to your health app.
