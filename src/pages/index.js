@@ -73,10 +73,10 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/olakino.png"
         loading="eager"
-        width={64}
-        quality={95}
+        width={200}
+        quality={200}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
@@ -85,36 +85,17 @@ const IndexPage = () => (
         Welcome to <b>Gatsby!</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
+        <b>This is olakino</b> A virtual character that levels up when you achieve your real-life fitness goals. 
         <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        1. Link olakino to your health app.
+        <br />
+        2. Earn XP when you complete exercise like daily step goals and workout sessions
+        <br />
+        3. Use that XP to level up your character and buy virtual items for their room
+        <br />
+        4. Add your freinds, share your character with them, and view their progress
       </p>
     </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
   </Layout>
 )
 
