@@ -81,9 +81,6 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
       <p className={styles.intro}>
         <b>This is olakino</b> A virtual character that levels up when you achieve your real-life fitness goals. 
         <br />

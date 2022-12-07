@@ -49,6 +49,6 @@
 }
 
 .intro {
-  max-width: none;
+  max-width: 200px;
   line-height: var(--line-height-loose);
 }
