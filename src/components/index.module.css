@@ -50,5 +50,7 @@
 
 .intro {
   max-width: 200px;
+  text-align: left;
+  align-items: center;
   line-height: var(--line-height-loose);
 }
