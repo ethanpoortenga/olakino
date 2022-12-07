@@ -75,7 +75,7 @@ const IndexPage = () => (
       <StaticImage
         src="../images/olakino.png"
         loading="eager"
-        width={200}
+        width={300}
         quality={100}
         formats={["auto", "webp", "avif"]}
         alt=""
@@ -84,13 +84,17 @@ const IndexPage = () => (
       <p className={styles.intro}>
         <b>This is olakino</b> A virtual character that levels up when you achieve your real-life fitness goals. 
         <br />
+        <br />
         1. Link olakino to your health app.
+        <br />
         <br />
         2. Earn XP when you complete exercise like daily step goals and workout sessions
         <br />
+        <br />
         3. Use that XP to level up your character and buy virtual items for their room
         <br />
-        4. Add your freinds, share your character with them, and view their progress
+        <br />
+        4. Add your friends, share your character with them, and view their progress
       </p>
     </div>
   </Layout>
