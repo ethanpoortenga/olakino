@@ -50,8 +50,3 @@
   margin-right: auto;
   text-align: left;
 }
-
-.intro {
-  align-items: center;
-  line-height: var(--line-height-loose);
-}

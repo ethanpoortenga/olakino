@@ -33,7 +33,7 @@
          <main>{children}</main>
          <footer
            style={{
-             marginTop: `var(--space-5)`,
+             marginBottom: `auto`,
              fontSize: `var(--font-sm)`,
            }}
          >
