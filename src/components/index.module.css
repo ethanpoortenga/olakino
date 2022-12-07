@@ -46,6 +46,7 @@
 
 .textCenter {
   max-width: 250px;
+  align-items: center;
   text-align: left;
 }
 
