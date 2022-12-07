@@ -94,7 +94,7 @@ const IndexPage = () => (
         3. Use that XP to level up your character and buy virtual items for their room
         <br />
         <br />
-        4. Add your friends, share your character with them, and view their progress
+        4. Share your progress with your friends and view their character's space
       </p>
     </div>
   </Layout>
